@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1 style="color:red;">Name</h1>
+        <%
+            links_text.forEach((link) => {
+        %>
+            <a href=<%= link.link %>>
+                <%= link.name %>
+            </a>
+            <br />
+        <%
+            })
+        %>
+    </body>
+</html>
